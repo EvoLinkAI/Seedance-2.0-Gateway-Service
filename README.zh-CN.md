@@ -120,3 +120,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 如果要看完整长文档、FAQ、更多参数和示例，请直接查看：
 
 - [README.md](./README.md)
+
+---
+
+> **Early Access：** 现在就可以先按文档完成接入。等 Seedance API 正式开放后，我们会通知 Early Access 用户。

@@ -299,3 +299,7 @@ Seedance-2.0-API/
 ## Licencia
 
 MIT
+
+---
+
+> **Early Access:** Ya puedes avanzar con la integración siguiendo la documentación. En cuanto Seedance API se abra oficialmente, avisaremos a los usuarios de Early Access.

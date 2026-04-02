@@ -300,3 +300,7 @@ Seedance-2.0-API/
 ## Lisans
 
 MIT
+
+---
+
+> **Early Access:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance API resmi olarak açıldığında Early Access kullanıcılarına haber vereceğiz.

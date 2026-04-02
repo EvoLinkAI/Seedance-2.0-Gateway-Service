@@ -398,3 +398,7 @@ seedance-2-api/
 ## License
 
 MIT
+
+---
+
+> **Early Access:** You can integrate against the docs today. Once Seedance API opens up, we’ll notify early-access users.

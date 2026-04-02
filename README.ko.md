@@ -300,3 +300,7 @@ Seedance-2.0-API/
 ## 라이선스
 
 MIT
+
+---
+
+> **Early Access:** 지금 문서를 기준으로 먼저 연동을 진행할 수 있습니다. Seedance API가 정식으로 열리면 Early Access 사용자에게 안내드리겠습니다.

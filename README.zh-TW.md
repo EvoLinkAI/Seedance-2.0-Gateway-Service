@@ -406,3 +406,7 @@ Seedance-2.0-API/
 ## License
 
 MIT
+
+---
+
+> **Early Access：** 現在就可以先依照文件完成接入。等 Seedance API 正式開放後，我們會通知 Early Access 使用者。
