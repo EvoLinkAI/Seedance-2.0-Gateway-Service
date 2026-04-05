@@ -411,4 +411,4 @@ MIT
 
 ---
 
-> **Early Access:** You can integrate against the docs today. Once Seedance API opens up, we’ll notify early-access users.
+> **Now Available:** You can integrate against the docs today. Once Seedance API opens up, we’ll notify early-access users.

@@ -303,4 +303,4 @@ MIT
 
 ---
 
-> **Early Access :** Vous pouvez intégrer l’API dès maintenant en vous appuyant sur la documentation. Dès que Seedance API sera officiellement ouverte, nous informerons les utilisateurs Early Access.
+> **Now Available :** Vous pouvez intégrer l’API dès maintenant en vous appuyant sur la documentation. Dès que Seedance API sera officiellement ouverte, nous informerons les utilisateurs Now Available.

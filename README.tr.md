@@ -303,4 +303,4 @@ MIT
 
 ---
 
-> **Early Access:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance API resmi olarak açıldığında Early Access kullanıcılarına haber vereceğiz.
+> **Now Available:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance API resmi olarak açıldığında Now Available kullanıcılarına haber vereceğiz.

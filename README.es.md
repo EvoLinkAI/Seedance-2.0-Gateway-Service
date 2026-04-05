@@ -302,4 +302,4 @@ MIT
 
 ---
 
-> **Early Access:** Ya puedes avanzar con la integración siguiendo la documentación. En cuanto Seedance API se abra oficialmente, avisaremos a los usuarios de Early Access.
+> **Now Available:** Ya puedes avanzar con la integración siguiendo la documentación. En cuanto Seedance API se abra oficialmente, avisaremos a los usuarios de Now Available.

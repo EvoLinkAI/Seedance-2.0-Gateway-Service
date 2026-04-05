@@ -303,4 +303,4 @@ MIT
 
 ---
 
-> **Early Access：** 今のうちにドキュメントに沿って先に統合を進められます。Seedance API の提供開始後、Early Access ユーザーへご案内します。
+> **Now Available：** 今のうちにドキュメントに沿って先に統合を進められます。Seedance API の提供開始後、Now Available ユーザーへご案内します。
