@@ -260,7 +260,7 @@ fast 모델은 같은 요청 패턴을 따르지만 더 빠른 반복 작업에 
 ## 저장소 구조
 
 ```text
-Seedance-2.0-API/
+Seedance-2.0-Gateway-Service/
 ├── README.md
 ├── README.zh-CN.md
 ├── README.zh-TW.md
@@ -287,7 +287,7 @@ Seedance-2.0-API/
 
 ## 관련 Seedance 저장소
 
-- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
+- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-Gateway-Service)
 - [Seedance 2 Video Gen Skill for OpenClaw](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw)
 - [Awesome Seedance 2 Guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide)
 
