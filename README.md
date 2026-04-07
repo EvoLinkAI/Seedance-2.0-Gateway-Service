@@ -1,15 +1,15 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Türkçe](./README.tr.md) | [Русский](./README.ru.md)
 
-# Seedance 2.0 API Price, Models, and Video Generation Guide
+# Seedance 2.0 Gateway Service: Pricing, Models, and Video Generation Guide
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance-2-api">
-    <img src="./assets/banner.jpg" alt="Awesome Seedance 2.0 API" width="100%" />
+    <img src="./assets/banner.jpg" alt="Seedance 2.0 Gateway Service" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  Seedance 2.0 API price, models, text-to-video, image-to-video, and reference-to-video in one unified guide.
+  Seedance 2.0 Gateway Service pricing, models, text-to-video, image-to-video, and reference-to-video in one unified guide.
 </p>
 
 <p align="left">
@@ -18,9 +18,9 @@
   <a href="https://docs.evolink.ai">Read API Docs</a>
 </p>
 
-## What Is Seedance 2.0 API?
+## What Is Seedance 2.0 Gateway Service?
 
-Seedance 2.0 API is a video generation API for creating AI videos from text prompts, images, and multimodal references. Through EvoLink.ai, developers can access the full Seedance 2.0 model family with one consistent API workflow:
+Seedance 2.0 Gateway Service is a video generation gateway service for creating AI videos from text prompts, images, and multimodal references. Through EvoLink.ai, developers can access the full Seedance 2.0 model family with one consistent API workflow:
 
 - create a generation task
 - receive a task ID immediately
@@ -29,7 +29,7 @@ Seedance 2.0 API is a video generation API for creating AI videos from text prom
 
 This repository is designed for developers who want to:
 
-- understand Seedance 2.0 API price and model differences
+- understand Seedance 2.0 Gateway Service pricing and model differences
 - rank for searches like `Seedance 2.0 API`, `Seedance 2 API price`, and `Seedance API pricing`
 - compare text-to-video, image-to-video, and reference-to-video modes
 - understand the difference between standard and fast models
@@ -171,7 +171,7 @@ Docs:
 - [Reference-to-Video Guide](./docs/reference-to-video.md)
 - [Fast Models Guide](./docs/fast-models.md)
 
-## Seedance 2.0 API Price
+## Seedance 2.0 Gateway Service Pricing
 
 ### Output pricing
 
@@ -330,7 +330,7 @@ console.log(task);
 
 ## Best Use Cases
 
-Seedance 2.0 API is well suited for:
+Seedance 2.0 Gateway Service is well suited for:
 
 - AI video generation apps
 - creative tooling and editor workflows
@@ -343,7 +343,7 @@ Seedance 2.0 API is well suited for:
 
 ## FAQ
 
-### Is Seedance 2.0 API synchronous?
+### Is Seedance 2.0 Gateway Service synchronous?
 No. Seedance 2.0 generation is asynchronous. You create a task first, then query task status later or use a callback URL.
 
 ### What is the difference between standard and fast models?
@@ -395,7 +395,7 @@ These docs now cover both **standard** and **fast** variants for text-to-video, 
 
 ## Related Seedance Repositories
 
-- [Seedance 2.0 Price and API Guide](https://github.com/EvoLinkAI/Seedance-2.0-API) — this repository
+- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API) — this repository
 - [Seedance 2 Video Gen Skill for OpenClaw](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw) — OpenClaw skill integration for Seedance workflows
 - [Awesome Seedance 2 Guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide) — broader Seedance ecosystem guide and discovery entry
 
@@ -405,10 +405,12 @@ These docs now cover both **standard** and **fast** variants for text-to-video, 
 - [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 - [EvoLink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 
+> Please review [Regional Availability](./docs/regional-availability.md) before integration.
+
 ## License
 
 MIT
 
 ---
 
-> **Now Available:** You can integrate against the docs today. Once Seedance API opens up, we’ll notify early-access users.
+> **Now Available:** You can integrate against the docs today. Once Seedance Gateway Service opens up, we’ll notify early-access users.

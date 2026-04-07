@@ -31,7 +31,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 ## Standard model reference
 
-# Seedance 2.0 Text-to-Video API Reference
+# Seedance 2.0 Text-to-Video Gateway Service Reference
 
 > - Generate video from text prompts, with optional web search for real-time content
 > - Async processing mode — use the returned task ID to query status
@@ -181,7 +181,7 @@ Cost = output video duration (seconds) × resolution unit price
 
 ## Fast model reference
 
-# Seedance 2.0 Fast Text-to-Video API Reference
+# Seedance 2.0 Fast Text-to-Video Gateway Service Reference
 
 > - Generate videos from pure text prompts with faster processing speed; supports web search for enhanced timeliness
 > - Asynchronous processing mode -- use the returned task ID to query status
@@ -341,4 +341,4 @@ Cost = Output video duration (seconds) x Resolution unit price
 
 ---
 
-> **Early Access:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance API resmi olarak açıldığında Early Access kullanıcılarına haber vereceğiz.
+> **Early Access:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance Gateway Service resmi olarak açıldığında Early Access kullanıcılarına haber vereceğiz.

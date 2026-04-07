@@ -21,7 +21,7 @@ See also: [Pricing](./pricing.md)
 
 ## Standard model reference
 
-# Seedance 2.0 Reference-to-Video Multimodal API Reference
+# Seedance 2.0 Reference-to-Video Multimodal Gateway Service Reference
 
 > - Input reference images (0–9) + videos (0–3) + audio (0–3) + text prompt to generate video
 > - Supports new generation, video editing, and video extension
@@ -259,7 +259,7 @@ Cost = (Billable input duration + Output video duration) (seconds) × Resolution
 
 ## Fast model reference
 
-# Seedance 2.0 Fast Reference-to-Video Multimodal API Reference
+# Seedance 2.0 Fast Reference-to-Video Multimodal Gateway Service Reference
 
 > - Input reference images (0--9) + reference videos (0--3) + reference audio (0--3) + text prompt to generate video
 > - Supports multiple creative scenarios: new generation, video editing, video extension, and more
@@ -510,4 +510,4 @@ Cost = (Billable input duration + Output video duration) (seconds) × Resolution
 
 ---
 
-> **Early Access:** 지금 문서를 기준으로 먼저 연동을 진행할 수 있습니다. Seedance API가 정식으로 열리면 Early Access 사용자에게 안내드리겠습니다.
+> **Early Access:** 지금 문서를 기준으로 먼저 연동을 진행할 수 있습니다. Seedance Gateway Service가 정식으로 열리면 Early Access 사용자에게 안내드리겠습니다.

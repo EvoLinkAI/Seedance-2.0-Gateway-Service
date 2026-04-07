@@ -1,15 +1,15 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Türkçe](./README.tr.md) | [Русский](./README.ru.md)
 
-# Seedance 2.0 API 価格・モデル・動画生成ガイド
+# Seedance 2.0 Gateway Service 価格・モデル・動画生成ガイド
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance-2-api">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 API" width="100%" />
+    <img src="./assets/banner.jpg" alt="Seedance 2.0 Gateway Service" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  Seedance 2.0 API の価格、モデル、text-to-video、image-to-video、reference-to-video を 1 つのガイドにまとめました。
+  Seedance 2.0 Gateway Service の価格、モデル、text-to-video、image-to-video、reference-to-video を 1 つのガイドにまとめました。
 </p>
 
 <p align="left">
@@ -18,9 +18,9 @@
   <a href="https://docs.evolink.ai">API ドキュメントを読む</a>
 </p>
 
-## Seedance 2.0 API とは？
+## Seedance 2.0 Gateway Service とは？
 
-Seedance 2.0 API は、テキストプロンプト、画像、マルチモーダル参照素材から AI 動画を生成するための API です。EvoLink.ai を通じて、開発者は統一された API フローで Seedance 2.0 のモデル群全体にアクセスできます。
+Seedance 2.0 Gateway Service は、テキストプロンプト、画像、マルチモーダル参照素材から AI 動画を生成するためのゲートウェイサービスです。EvoLink.ai を通じて、開発者は統一された API フローで Seedance 2.0 のモデル群全体にアクセスできます。
 
 - 生成タスクを作成する
 - タスク ID をすぐに受け取る
@@ -29,7 +29,7 @@ Seedance 2.0 API は、テキストプロンプト、画像、マルチモーダ
 
 このリポジトリは、次のような開発者向けです。
 
-- Seedance 2.0 API の価格とモデル差を理解したい
+- Seedance 2.0 Gateway Service の価格とモデル差を理解したい
 - text-to-video、image-to-video、reference-to-video を比較したい
 - 標準モデルと fast モデルの違いを理解したい
 - そのまま使える実運用向けサンプルを使いたい
@@ -142,7 +142,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 - 動画の延長、編集、再構成が可能
 - 参照動画の長さは料金に影響する
 
-## Seedance 2.0 API の価格
+## Seedance 2.0 Gateway Service の価格
 
 ### 出力料金
 
@@ -236,7 +236,7 @@ curl --request POST \
 
 ## FAQ
 
-### Seedance 2.0 API は同期型ですか？
+### Seedance 2.0 Gateway Service は同期型ですか？
 いいえ。Seedance 2.0 は非同期タスクフローです。
 
 ### 標準モデルと fast モデルの違いは？
@@ -287,7 +287,7 @@ Seedance-2.0-API/
 
 ## 関連する Seedance リポジトリ
 
-- [Seedance 2.0 API Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
+- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
 - [Seedance 2 Video Gen Skill for OpenClaw](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw)
 - [Awesome Seedance 2 Guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide)
 
@@ -297,10 +297,12 @@ Seedance-2.0-API/
 - [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 - [EvoLink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 
+> 統合前に [地域別提供状況](./docs/regional-availability.ja.md) をご確認ください。
+
 ## ライセンス
 
 MIT
 
 ---
 
-> **Now Available：** 今のうちにドキュメントに沿って先に統合を進められます。Seedance API の提供開始後、Now Available ユーザーへご案内します。
+> **Now Available：** 今のうちにドキュメントに沿って先に統合を進められます。Seedance Gateway Service の提供開始後、Now Available ユーザーへご案内します。

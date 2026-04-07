@@ -1,15 +1,15 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Türkçe](./README.tr.md) | [Русский](./README.ru.md)
 
-# Seedance 2.0 API: Preise, Modelle und Leitfaden zur Videogenerierung
+# Seedance 2.0 Gateway Service: Preise, Modelle und Leitfaden zur Videogenerierung
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance-2-api">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 API" width="100%" />
+    <img src="./assets/banner.jpg" alt="Seedance 2.0 Gateway Service" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  Seedance 2.0 API Preise, Modelle, Text-to-Video, Image-to-Video und Reference-to-Video in einer einzigen Anleitung.
+  Seedance 2.0 Gateway Service Preise, Modelle, Text-to-Video, Image-to-Video und Reference-to-Video in einer einzigen Anleitung.
 </p>
 
 <p align="left">
@@ -18,9 +18,9 @@
   <a href="https://docs.evolink.ai">API-Dokumentation lesen</a>
 </p>
 
-## Was ist die Seedance 2.0 API?
+## Was ist der Seedance 2.0 Gateway Service?
 
-Die Seedance 2.0 API ist eine Video-Generierungs-API für KI-Videos aus Text-Prompts, Bildern und multimodalen Referenzen. Über EvoLink.ai können Entwickler auf die gesamte Seedance-2.0-Modellfamilie mit einem einheitlichen API-Workflow zugreifen:
+Der Seedance 2.0 Gateway Service ist ein Video-Generierungs-Gateway-Service für KI-Videos aus Text-Prompts, Bildern und multimodalen Referenzen. Über EvoLink.ai können Entwickler auf die gesamte Seedance-2.0-Modellfamilie mit einem einheitlichen API-Workflow zugreifen:
 
 - einen Generierungs-Task erstellen
 - sofort eine Task-ID erhalten
@@ -29,7 +29,7 @@ Die Seedance 2.0 API ist eine Video-Generierungs-API für KI-Videos aus Text-Pro
 
 Dieses Repository richtet sich an Entwickler, die:
 
-- die Preise der Seedance 2.0 API und Modellunterschiede verstehen wollen
+- die Preise des Seedance 2.0 Gateway Service und Modellunterschiede verstehen wollen
 - Text-to-Video, Image-to-Video und Reference-to-Video vergleichen möchten
 - den Unterschied zwischen Standard- und Fast-Modellen verstehen wollen
 - produktionsreife Beispiele kopieren möchten
@@ -142,7 +142,7 @@ Wichtige Punkte:
 - kann Videos verlängern, bearbeiten oder neu zusammensetzen
 - Referenzvideo-Laufzeit beeinflusst die Abrechnung
 
-## Seedance 2.0 API Preise
+## Seedance 2.0 Gateway Service Preise
 
 ### Ausgabepreise
 
@@ -236,7 +236,7 @@ curl --request POST \
 
 ## FAQ
 
-### Ist die Seedance 2.0 API synchron?
+### Ist der Seedance 2.0 Gateway Service synchron?
 Nein. Seedance 2.0 arbeitet asynchron mit Tasks.
 
 ### Was ist der Unterschied zwischen Standard- und Fast-Modellen?
@@ -287,7 +287,7 @@ Seedance-2.0-API/
 
 ## Verwandte Seedance-Repositories
 
-- [Seedance 2.0 API Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
+- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
 - [Seedance 2 Video Gen Skill for OpenClaw](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw)
 - [Awesome Seedance 2 Guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide)
 
@@ -297,10 +297,12 @@ Seedance-2.0-API/
 - [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 - [EvoLink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 
+> Bitte prüfen Sie die [Regionale Verfügbarkeit](./docs/regional-availability.de.md) vor der Integration.
+
 ## Lizenz
 
 MIT
 
 ---
 
-> **Now Available:** Du kannst die Integration schon jetzt anhand der Dokumentation vorbereiten. Sobald die Seedance API offiziell geöffnet wird, benachrichtigen wir Early-Access-Nutzer.
+> **Now Available:** Du kannst die Integration schon jetzt anhand der Dokumentation vorbereiten. Sobald der Seedance Gateway Service offiziell geöffnet wird, benachrichtigen wir Early-Access-Nutzer.

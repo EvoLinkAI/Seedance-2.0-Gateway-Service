@@ -1,15 +1,15 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Türkçe](./README.tr.md) | [Русский](./README.ru.md)
 
-# Seedance 2.0 API fiyat, modeller ve video üretim rehberi
+# Seedance 2.0 Gateway Service fiyat, modeller ve video üretim rehberi
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance-2-api">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 API" width="100%" />
+    <img src="./assets/banner.jpg" alt="Seedance 2.0 Gateway Service" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  Seedance 2.0 API fiyatı, modelleri, text-to-video, image-to-video ve reference-to-video tek bir rehberde.
+  Seedance 2.0 Gateway Service fiyatı, modelleri, text-to-video, image-to-video ve reference-to-video tek bir rehberde.
 </p>
 
 <p align="left">
@@ -18,9 +18,9 @@
   <a href="https://docs.evolink.ai">API belgelerini oku</a>
 </p>
 
-## Seedance 2.0 API nedir?
+## Seedance 2.0 Gateway Service nedir?
 
-Seedance 2.0 API, metin istemleri, görseller ve çok modlu referanslar ile yapay zekâ videoları üretmek için kullanılan bir video üretim API’sidir. EvoLink.ai üzerinden geliştiriciler, tutarlı bir API akışıyla tüm Seedance 2.0 model ailesine erişebilir:
+Seedance 2.0 Gateway Service, metin istemleri, görseller ve çok modlu referanslar ile yapay zekâ videoları üretmek için kullanılan bir video üretim hizmetidir. EvoLink.ai üzerinden geliştiriciler, tutarlı bir iş akışıyla tüm Seedance 2.0 model ailesine erişebilir:
 
 - bir üretim görevi oluştur
 - hemen bir görev kimliği al
@@ -29,7 +29,7 @@ Seedance 2.0 API, metin istemleri, görseller ve çok modlu referanslar ile yapa
 
 Bu depo, şunları isteyen geliştiriciler için tasarlanmıştır:
 
-- Seedance 2.0 API fiyatını ve model farklarını anlamak
+- Seedance 2.0 Gateway Service fiyatını ve model farklarını anlamak
 - text-to-video, image-to-video ve reference-to-video modlarını karşılaştırmak
 - standart ve fast modeller arasındaki farkı görmek
 - üretime hazır örnekleri kopyalamak
@@ -67,7 +67,7 @@ curl --request POST \
   }'
 ```
 
-## Birleşik API iş akışı
+## Birleşik iş akışı
 
 ### 1. Üretim görevi oluştur
 
@@ -83,7 +83,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 ### 3. Sonuçları al
 
-Görev tamamlandığında yanıt, üretilen video URL’lerini döndürür.
+Görev tamamlandığında yanıt, üretilen video URL'lerini döndürür.
 
 ### 4. İsteğe bağlı callback
 
@@ -110,7 +110,7 @@ Sadece polling kullanmak istemiyorsan `callback_url` gönderebilirsin.
 | `quality` | string | `480p` veya `720p` |
 | `aspect_ratio` | string | `16:9`, `9:16`, `1:1`, `4:3`, `3:4`, `21:9` veya `adaptive` |
 | `generate_audio` | boolean | senkron ses üretilip üretilmeyeceği |
-| `callback_url` | string | isteğe bağlı HTTPS callback URL’si |
+| `callback_url` | string | isteğe bağlı HTTPS callback URL'si |
 
 ## Moda göre rehber
 
@@ -142,7 +142,7 @@ Temel noktalar:
 - videoları uzatabilir, düzenleyebilir veya yeniden kurgulayabilir
 - referans video süresi fiyatlandırmayı etkiler
 
-## Seedance 2.0 API fiyatı
+## Seedance 2.0 Gateway Service fiyatı
 
 ### Çıktı fiyatlandırması
 
@@ -212,7 +212,7 @@ curl --request POST \
   --header 'Content-Type: application/json' \
   --data '{
     "model": "seedance-2.0-reference-to-video",
-    "prompt": "Video 1’in kamera hareketini kullan ve audio 1’i arka plan müziği yap",
+    "prompt": "Video 1'in kamera hareketini kullan ve audio 1'i arka plan müziği yap",
     "image_urls": ["https://example.com/ref1.jpg"],
     "video_urls": ["https://example.com/reference.mp4"],
     "audio_urls": ["https://example.com/bgm.mp3"],
@@ -227,7 +227,7 @@ curl --request POST \
 
 - AI video üretim uygulamaları
 - yaratıcı araçlar ve düzenleme iş akışları
-- görsel animasyon pipeline’ları
+- görsel animasyon pipeline'ları
 - video reklam üretimi
 - sosyal medya içerik üretimi
 - ürün demo videoları
@@ -236,7 +236,7 @@ curl --request POST \
 
 ## SSS
 
-### Seedance 2.0 API senkron mu?
+### Seedance 2.0 Gateway Service senkron mu?
 Hayır. Seedance 2.0 görev tabanlı asenkron bir akış kullanır.
 
 ### Standart modeller ile fast modeller arasındaki fark nedir?
@@ -254,8 +254,8 @@ Evet. `video_urls` ile reference-to-video kullan.
 ### Referans girdileri fiyatı etkiler mi?
 Evet. reference-to-video için referans video süresi fiyatlandırmaya dahildir.
 
-### Sonuç URL’leri ne kadar süre geçerli?
-Üretilen video URL’leri 24 saat boyunca geçerlidir.
+### Sonuç URL'leri ne kadar süre geçerli?
+Üretilen video URL'leri 24 saat boyunca geçerlidir.
 
 ## Depo yapısı
 
@@ -287,7 +287,7 @@ Seedance-2.0-API/
 
 ## İlgili Seedance depoları
 
-- [Seedance 2.0 API Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
+- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
 - [Seedance 2 Video Gen Skill for OpenClaw](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw)
 - [Awesome Seedance 2 Guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide)
 
@@ -303,4 +303,6 @@ MIT
 
 ---
 
-> **Now Available:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance API resmi olarak açıldığında Now Available kullanıcılarına haber vereceğiz.
+> ⚠️ Entegrasyondan önce lütfen [Bölgesel Kullanılabilirlik](./docs/regional-availability.tr.md) sayfasını inceleyin.
+
+> **Now Available:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance Gateway Service resmi olarak açıldığında Now Available kullanıcılarına haber vereceğiz.

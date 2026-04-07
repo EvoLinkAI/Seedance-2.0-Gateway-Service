@@ -8,18 +8,20 @@
   </a>
 </p>
 
-# 🎬 Seedance 2.0 API
+# 🎬 Seedance 2.0 Gateway Service
 
-> **A Seedance 2.0 API já está disponível.** 
+> **O Seedance 2.0 Gateway Service já está disponível.** 
 >
-> 🚀 **[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=Seedance-2.0-API)** fornece acesso estável à Seedance 2.0 API para construção de aplicações de vídeo AI multimodais.
+> 🚀 **[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=Seedance-2.0-API)** fornece acesso estável ao Seedance 2.0 Gateway Service para construção de aplicações de vídeo AI multimodais.
 
 ---
 
 ## 🎯 Sobre a API
 
-A Seedance 2.0 API permite que você integre geração de vídeo controlável em seus produtos.
+O Seedance 2.0 Gateway Service permite que você integre geração de vídeo controlável em seus produtos.
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=readme&utm_campaign=Seedance-2.0-API"><strong>👉 Comece hoje mesmo →</strong></a>
 </p>
+
+> Por favor revise a [Disponibilidade Regional](./docs/regional-availability.pt.md) antes da integração.

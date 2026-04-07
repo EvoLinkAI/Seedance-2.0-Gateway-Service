@@ -1,15 +1,15 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Türkçe](./README.tr.md) | [Русский](./README.ru.md)
 
-# Seedance 2.0 API 가격, 모델, 비디오 생성 가이드
+# Seedance 2.0 Gateway Service 가격, 모델, 비디오 생성 가이드
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance-2-api">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 API" width="100%" />
+    <img src="./assets/banner.jpg" alt="Seedance 2.0 Gateway Service" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  Seedance 2.0 API 가격, 모델, text-to-video, image-to-video, reference-to-video를 하나의 가이드로 정리했습니다.
+  Seedance 2.0 Gateway Service 가격, 모델, text-to-video, image-to-video, reference-to-video를 하나의 가이드로 정리했습니다.
 </p>
 
 <p align="left">
@@ -18,9 +18,9 @@
   <a href="https://docs.evolink.ai">API 문서 읽기</a>
 </p>
 
-## Seedance 2.0 API란?
+## Seedance 2.0 Gateway Service란?
 
-Seedance 2.0 API는 텍스트 프롬프트, 이미지, 멀티모달 레퍼런스를 기반으로 AI 비디오를 생성하는 API입니다. EvoLink.ai를 통해 개발자는 통일된 API 흐름으로 Seedance 2.0 모델 전체를 사용할 수 있습니다.
+Seedance 2.0 Gateway Service는 텍스트 프롬프트, 이미지, 멀티모달 레퍼런스를 기반으로 AI 비디오를 생성하는 게이트웨이 서비스입니다. EvoLink.ai를 통해 개발자는 통일된 API 흐름으로 Seedance 2.0 모델 전체를 사용할 수 있습니다.
 
 - 생성 작업 만들기
 - 즉시 작업 ID 받기
@@ -29,7 +29,7 @@ Seedance 2.0 API는 텍스트 프롬프트, 이미지, 멀티모달 레퍼런스
 
 이 저장소는 다음과 같은 개발자에게 적합합니다.
 
-- Seedance 2.0 API 가격과 모델 차이를 이해하고 싶은 경우
+- Seedance 2.0 Gateway Service 가격과 모델 차이를 이해하고 싶은 경우
 - text-to-video, image-to-video, reference-to-video를 비교하고 싶은 경우
 - 표준 모델과 fast 모델의 차이를 이해하고 싶은 경우
 - 바로 쓸 수 있는 실전 예제를 원할 경우
@@ -142,7 +142,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 - 비디오 연장, 편집, 재구성 가능
 - 레퍼런스 비디오 길이가 요금에 반영됨
 
-## Seedance 2.0 API 가격
+## Seedance 2.0 Gateway Service 가격
 
 ### 출력 기준 요금
 
@@ -236,7 +236,7 @@ curl --request POST \
 
 ## FAQ
 
-### Seedance 2.0 API는 동기식인가요?
+### Seedance 2.0 Gateway Service는 동기식인가요?
 아니요. Seedance 2.0은 비동기 작업 기반 워크플로를 사용합니다.
 
 ### 표준 모델과 fast 모델의 차이는 무엇인가요?
@@ -287,7 +287,7 @@ Seedance-2.0-API/
 
 ## 관련 Seedance 저장소
 
-- [Seedance 2.0 API Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
+- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
 - [Seedance 2 Video Gen Skill for OpenClaw](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw)
 - [Awesome Seedance 2 Guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide)
 
@@ -297,10 +297,12 @@ Seedance-2.0-API/
 - [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 - [EvoLink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance-2-api)
 
+> 통합 전에 [지역별 제공 현황](./docs/regional-availability.ko.md)을 확인해 주세요.
+
 ## 라이선스
 
 MIT
 
 ---
 
-> **Now Available:** 지금 문서를 기준으로 먼저 연동을 진행할 수 있습니다. Seedance API가 정식으로 열리면 Now Available 사용자에게 안내드리겠습니다.
+> **Now Available:** 지금 문서를 기준으로 먼저 연동을 진행할 수 있습니다. Seedance Gateway Service가 정식으로 열리면 Now Available 사용자에게 안내드리겠습니다.

@@ -50,4 +50,4 @@ If you are building a public demo, internal creative tool, or prompt-iteration w
 
 ---
 
-> **Early Access：** 現在就可以先依照文件完成接入。等 Seedance API 正式開放後，我們會通知 Early Access 使用者。
+> **Early Access：** 現在就可以先依照文件完成接入。等 Seedance Gateway Service 正式開放後，我們會通知 Early Access 使用者。

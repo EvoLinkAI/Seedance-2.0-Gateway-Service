@@ -21,7 +21,7 @@ See also: [Pricing](./pricing.md)
 
 ## Standard model reference
 
-# Seedance 2.0 Image-to-Video API Reference
+# Seedance 2.0 Image-to-Video Gateway Service Reference
 
 > - 1 image generates a first-frame video; 2 images generate a first-and-last-frame video — automatically detected
 > - Async processing mode — use the returned task ID to query status
@@ -177,7 +177,7 @@ Cost = output video duration (seconds) × resolution unit price
 
 ## Fast model reference
 
-# Seedance 2.0 Fast Image-to-Video API Reference
+# Seedance 2.0 Fast Image-to-Video Gateway Service Reference
 
 > - Input 1 image to generate a first-frame video, or input 2 images to generate a first-and-last-frame video -- the model determines the mode automatically
 > - Faster processing speed compared to the standard version
@@ -346,4 +346,4 @@ Cost = Output video duration (seconds) x Resolution unit price
 
 ---
 
-> **Early Access：** 现在就可以先按文档完成接入。等 Seedance API 正式开放后，我们会通知 Early Access 用户。
+> **Early Access：** 现在就可以先按文档完成接入。等 Seedance Gateway Service 正式开放后，我们会通知 Early Access 用户。

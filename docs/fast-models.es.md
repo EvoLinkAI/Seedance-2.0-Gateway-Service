@@ -50,4 +50,4 @@ If you are building a public demo, internal creative tool, or prompt-iteration w
 
 ---
 
-> **Early Access:** Ya puedes avanzar con la integración siguiendo la documentación. En cuanto Seedance API se abra oficialmente, avisaremos a los usuarios de Early Access.
+> **Early Access:** Ya puedes avanzar con la integración siguiendo la documentación. En cuanto Seedance Gateway Service se abra oficialmente, avisaremos a los usuarios de Early Access.

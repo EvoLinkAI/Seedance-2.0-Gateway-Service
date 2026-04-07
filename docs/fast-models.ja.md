@@ -50,4 +50,4 @@ If you are building a public demo, internal creative tool, or prompt-iteration w
 
 ---
 
-> **Early Access：** 今のうちにドキュメントに沿って先に統合を進められます。Seedance API の提供開始後、Early Access ユーザーへご案内します。
+> **Early Access：** 今のうちにドキュメントに沿って先に統合を進められます。Seedance Gateway Service の提供開始後、Early Access ユーザーへご案内します。

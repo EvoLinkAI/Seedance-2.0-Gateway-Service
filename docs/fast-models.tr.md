@@ -50,4 +50,4 @@ If you are building a public demo, internal creative tool, or prompt-iteration w
 
 ---
 
-> **Early Access:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance API resmi olarak açıldığında Early Access kullanıcılarına haber vereceğiz.
+> **Early Access:** Dokümantasyona göre entegrasyonu şimdiden hazırlayabilirsiniz. Seedance Gateway Service resmi olarak açıldığında Early Access kullanıcılarına haber vereceğiz.

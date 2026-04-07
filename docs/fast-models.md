@@ -48,4 +48,4 @@ If you are building a public demo, internal creative tool, or prompt-iteration w
 
 ---
 
-> **Early Access:** You can integrate against the docs today. Once Seedance API opens up, we’ll notify early-access users.
+> **Early Access:** You can integrate against the docs today. Once Seedance Gateway Service opens up, we’ll notify early-access users.

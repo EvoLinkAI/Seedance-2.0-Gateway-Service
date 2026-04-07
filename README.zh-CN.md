@@ -1,15 +1,15 @@
 [English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [Español](./README.es.md) | [Deutsch](./README.de.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Türkçe](./README.tr.md) | [Русский](./README.ru.md)
 
-# Seedance 2.0 API 价格、模型与视频生成指南
+# Seedance 2.0 Gateway Service：价格、模型与视频生成指南
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance-2-api">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 API" width="100%" />
+    <img src="./assets/banner.jpg" alt="Seedance 2.0 Gateway Service" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  在一个统一入口里查看 Seedance 2.0 API 价格、模型、text-to-video、image-to-video 和 reference-to-video 用法。
+  在一个统一入口里查看 Seedance 2.0 Gateway Service 价格、模型、text-to-video、image-to-video 和 reference-to-video 用法。
 </p>
 
 <p align="left">
@@ -20,7 +20,7 @@
 
 ## 这是什么？
 
-这个仓库聚焦 Seedance 2.0 API 的价格、模型差异、接入方式，以及三种核心能力：
+这个仓库聚焦 Seedance 2.0 Gateway Service 的价格、模型差异、接入方式，以及三种核心能力：
 
 - text-to-video
 - image-to-video
@@ -52,7 +52,7 @@ curl --request POST \
   }'
 ```
 
-## 统一 API 工作流
+## 统一工作流
 
 ### 1. 创建任务
 
@@ -74,7 +74,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 如果你不想只靠轮询，可以在创建任务时传入 `callback_url`。
 
-## Seedance 2.0 API 价格
+## Seedance 2.0 Gateway Service 价格
 
 ### text-to-video / image-to-video
 
@@ -103,7 +103,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 ## 这个仓库里有什么
 
-- Seedance 2.0 API 价格信息
+- Seedance 2.0 Gateway Service 价格信息
 - 模型对比
 - curl / Node.js / Python 示例
 - docs 目录下的能力拆解文档
@@ -111,7 +111,7 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 ## 相关 Seedance 仓库
 
-- [Seedance 2.0 API Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
+- [Seedance 2.0 Gateway Service: Price and Guide](https://github.com/EvoLinkAI/Seedance-2.0-API)
 - [Seedance 2 Video Gen Skill for OpenClaw](https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw)
 - [Awesome Seedance 2 Guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide)
 
@@ -123,4 +123,6 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 ---
 
-> **Now Available：** 现在就可以先按文档完成接入。等 Seedance API 正式开放后，我们会通知 Now Available 用户。
+> ⚠️ 接入前请先查阅 [区域可用性](./docs/regional-availability.zh-CN.md)。
+
+> **Now Available：** 现在就可以先按文档完成接入。等 Seedance Gateway Service 正式开放后，我们会通知 Now Available 用户。
