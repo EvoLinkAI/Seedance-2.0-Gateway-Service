@@ -9,10 +9,6 @@
 </p>
 
 <p align="center">
-  <strong>Seedance 2.0<br>Human Face Now Available<br>Try Now</strong>
-</p>
-
-<p align="center">
   Prix du Seedance 2.0 Gateway Service, modèles, text-to-video, image-to-video et reference-to-video dans un guide unique.
 </p>
 
@@ -156,8 +152,8 @@ coût = durée de la vidéo de sortie × prix par résolution
 
 | Résolution | Prix |
 |---|---:|
-| `480p` | 5.556 crédits / seconde |
-| `720p` | 12.00 crédits / seconde |
+| `480p` | 4.63 crédits / seconde |
+| `720p` | 10.00 crédits / seconde |
 
 ### Prix pour reference-to-video
 

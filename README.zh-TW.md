@@ -9,10 +9,6 @@
 </p>
 
 <p align="center">
-  <strong>Seedance 2.0<br>Human Face Now Available<br>Try Now</strong>
-</p>
-
-<p align="center">
   在同一份指南中掌握 Seedance 2.0 Gateway Service 價格、模型、text-to-video、image-to-video 與 reference-to-video。
 </p>
 
@@ -186,8 +182,8 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 | 解析度 | 價格 |
 |---|---:|
-| `480p` | 5.556 積分 / 秒 |
-| `720p` | 12.00 積分 / 秒 |
+| `480p` | 4.63 積分 / 秒 |
+| `720p` | 10.00 積分 / 秒 |
 
 ### Reference 視訊計費
 

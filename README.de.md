@@ -156,8 +156,8 @@ Kosten = Ausgabedauer des Videos × Preis pro Auflösung
 
 | Auflösung | Preis |
 |---|---:|
-| `480p` | 5.556 Credits / Sekunde |
-| `720p` | 12.00 Credits / Sekunde |
+| `480p` | 4.63 Credits / Sekunde |
+| `720p` | 10.00 Credits / Sekunde |
 
 ### Preise für Reference-to-Video
 

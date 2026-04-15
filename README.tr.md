@@ -156,8 +156,8 @@ maliyet = çıktı video süresi × çözünürlük fiyatı
 
 | Çözünürlük | Fiyat |
 |---|---:|
-| `480p` | saniye başına 5.556 kredi |
-| `720p` | saniye başına 12.00 kredi |
+| `480p` | saniye başına 4.63 kredi |
+| `720p` | saniye başına 10.00 kredi |
 
 ### Reference-to-video fiyatlandırması
 

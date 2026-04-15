@@ -177,95 +177,33 @@ Docs:
 
 ## Seedance 2.0 Gateway Service Pricing
 
-### Standard models
+### Output pricing
 
-#### Text-to-video and image-to-video
-
-For standard text-to-video and image-to-video tasks, pricing is based on output duration:
+For text-to-video and image-to-video tasks, pricing is based on output duration:
 
 ```text
-cost = output video duration in seconds × resolution unit price
+cost = output video duration in seconds × resolution price
 ```
 
-| Resolution | USD / sec | Credits / sec |
-|---|---:|---:|
-| `480p` | $0.0817 | 5.556 |
-| `720p` | $0.1765 | 12.00 |
+| Resolution | Price |
+|---|---:|
+| `480p` | 4.63 credits / second |
+| `720p` | 10.00 credits / second |
 
-`web_search` is billed separately at `$0.0006 / call` or `0.04 credits / call`, only when actually triggered.
+### Reference video pricing
 
-#### Reference-to-video
-
-Without reference video:
+For reference-to-video tasks, input reference video duration is also billed:
 
 ```text
-cost = output video duration in seconds × resolution unit price
+cost = (input reference video duration + output video duration) × resolution price
 ```
-
-| Resolution | USD / sec | Credits / sec |
-|---|---:|---:|
-| `480p` | $0.0817 | 5.556 |
-| `720p` | $0.1765 | 12.00 |
-
-With reference video:
-
-```text
-billable input duration = max(total input video duration, output video duration)
-cost = (billable input duration + output video duration) × resolution unit price
-```
-
-| Resolution | USD / sec | Credits / sec |
-|---|---:|---:|
-| `480p` | $0.0498 | 3.3836 |
-| `720p` | $0.1075 | 7.308 |
-
-### Fast models
-
-#### Fast text-to-video and fast image-to-video
-
-```text
-cost = output video duration in seconds × resolution unit price
-```
-
-| Resolution | USD / sec | Credits / sec |
-|---|---:|---:|
-| `480p` | $0.0662 | 4.5004 |
-| `720p` | $0.1429 | 9.72 |
-
-`web_search` is billed separately at `$0.0006 / call` or `0.04 credits / call`, only when actually triggered.
-
-#### Fast reference-to-video
-
-Without reference video:
-
-```text
-cost = output video duration in seconds × resolution unit price
-```
-
-| Resolution | USD / sec | Credits / sec |
-|---|---:|---:|
-| `480p` | $0.0662 | 4.5004 |
-| `720p` | $0.1429 | 9.72 |
-
-With reference video:
-
-```text
-billable input duration = max(total input video duration, output video duration)
-cost = (billable input duration + output video duration) × resolution unit price
-```
-
-| Resolution | USD / sec | Credits / sec |
-|---|---:|---:|
-| `480p` | $0.0394 | 2.6777 |
-| `720p` | $0.0851 | 5.7834 |
 
 ### Extra notes
 
 - audio generation has no extra charge
-- video duration range is `4-15` seconds
-- generated video URLs are valid for 24 hours
-- a single request may trigger multiple `web_search` calls when enabled
+- `web_search` costs `0.04` credits per actual search call
 - smart duration (`-1`) reserves 10 seconds first, then settles by actual output length
+- 1 credit = 10,000 UC = ¥0.10
 
 Detailed breakdown:
 - [Pricing Guide](./docs/pricing.md)

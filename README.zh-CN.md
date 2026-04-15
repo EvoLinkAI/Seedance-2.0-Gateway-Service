@@ -88,8 +88,8 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 | 分辨率 | 价格 |
 |---|---:|
-| `480p` | 5.556 积分 / 秒 |
-| `720p` | 12.00 积分 / 秒 |
+| `480p` | 4.63 积分 / 秒 |
+| `720p` | 10.00 积分 / 秒 |
 
 ### reference-to-video
 

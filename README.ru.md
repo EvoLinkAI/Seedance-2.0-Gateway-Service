@@ -9,10 +9,6 @@
 </p>
 
 <p align="center">
-  <strong>Seedance 2.0<br>Human Face Now Available<br>Try Now</strong>
-</p>
-
-<p align="center">
   Цена Seedance 2.0 Gateway Service, модели, text-to-video, image-to-video и reference-to-video в одном руководстве.
 </p>
 
@@ -156,8 +152,8 @@ GET https://api.evolink.ai/v1/tasks/{task_id}
 
 | Разрешение | Цена |
 |---|---:|
-| `480p` | 5.556 кредита / секунда |
-| `720p` | 12.00 кредита / секунда |
+| `480p` | 4.63 кредита / секунда |
+| `720p` | 10.00 кредита / секунда |
 
 ### Стоимость для reference-to-video
 
